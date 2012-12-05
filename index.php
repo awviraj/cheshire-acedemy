@@ -128,35 +128,47 @@ function curPageURL() {
                        <img src="<?php echo $url ?>/img/two-docs.jpg" alt="WHO SHOULD HAVE IT" />
                    </div>
                    <h2><span>SCHEDULE</span> FOR THE DAY - <b>27 JULY 2012</b></h2>
-                   <table>
+                   <table class="table-striped">
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td width="30%">
+                                Session 01<br/>
+                                <strong>By Dr. Raj Acquilla</strong>
+                            </td>
+                            <td>
+                                Introductory theory and practical training in the cosmetic use of Botulinum Toxin
+                          </td>
+                            <td width="30%">
+                                From<br/>
+                                <strong>9.00 AM - 11.00 AM</strong>
+                            </td>
                         </tr>
                        <tr>
-                           <td></td>
-                           <td></td>
-                           <td></td>
+                           <td colspan="2">Snacks & Tea Break</td>
+
+                           <td><strong>11.00 AM - 11.30 AM</strong></td>
                        </tr>
                        <tr>
-                           <td></td>
-                           <td></td>
-                           <td></td>
+                           <td>Session 02<br/>
+                           <strong>By Dr. Jonquille</strong></td>
+                           <td>Introductory theory and practical training in the cosmetic use of Dermal Fillers</td>
+                           <td>From<br/>
+                               <strong>11.30 AM - 01.00 PM</strong></td>
                        </tr>
                        <tr>
-                           <td></td>
-                           <td></td>
-                           <td></td>
+                           <td colspan="2">Lunch Break</td>
+                           <td><strong>01.00 PM - 02.00 PM</strong></td>
+                           
                        </tr>
                        <tr>
-                           <td></td>
-                           <td></td>
-                           <td></td>
+                           <td>Session 03<br/>
+                         <strong>By Dr. Raj Acquilla</strong></td>
+                           <td>Introductory theory and practical training in the cosmetic use of Botulinum Toxin &amp; Dermal Fillers</td>
+                           <td>From <br>
+                           <strong>02.00 PM - 04.00 PM</strong></td>
                        </tr>
                    </table>
                    <div class="testimonial">
-                       <h2>TRAINEES TESTIMONIALS</h2>
+                   <h2>TRAINEES TESTIMONIALS</h2>
                        <blockquote>&quot;The Cheshire Cosmetic Academy team are so welcoming and I just loved the training session &quot;</blockquote>
                        <div class="image">
                        	<img src="img/lucy_nurse_03.jpg" />
@@ -164,7 +176,7 @@ function curPageURL() {
                        </div>
                    </div>
                </div>
-               <div class="right span5">
+               <div class="right_sidebar span5">
                    <div class="box book_training clearfix">
                        <h2>BOOK A <b>TRAINING COURSE</b></h2>
                        <form class="book_course_form">
@@ -202,6 +214,18 @@ function curPageURL() {
                    <div class="box call">
                        <p>TO BOOK YOUR PLACE ON A TRAINING DAY OR FOR MORE INFORMATION,</p>
                        <p class="call_no">CALL 01606 544535</p>
+                   </div>
+                   <div class="box videos ">
+                   <h2>TRAINING <b>VIDEOS<b/></h2>
+						<div class="video_thumb first">
+                        	<img src="img/video_thumb_1.jpg" />
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </div>
+                        <div class="video_thumb">
+                        	<img src="img/video_thumb_2.jpg" />
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </div>
+                        <a class="btn" href="#" title="view more videos" >VIEW MORE VIDEOS</a>
                    </div>
                </div>
            </div>
